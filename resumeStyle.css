@@ -1,0 +1,139 @@
+body {
+ background-color: #242423;
+}
+
+p {
+  color: #adabaa;
+}
+
+p2 {
+  color: white;
+}
+
+.background-picture{
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4.0em;
+}
+
+h2 {
+  color: white;
+  font-size: 2.0em;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+/*Onlineresumept2 starts here */
+
+* { color:#fff; text-decoration: none;}
+
+.contact_info {
+  background-color: grey;
+  border: solid #000;
+  border-width: 1px;
+  border-color: white;
+}
+
+.btn {
+  background-color: #026cc9;
+}
+
+.bluebtn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+}
+
+.bg-grey {
+  background-color: #161616;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.left-pad{
+  padding-left: 60px;
+}
+
+/*NAVBAR*/
+.navbar-default{
+  background-color: #1a1a1a;
+  border: none;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+/*END NAVBAR*/
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.contact {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.boxed {
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+}
+
+/*SLIDE ANIMATION */
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+/*END SLIDE ANIMATION*/
